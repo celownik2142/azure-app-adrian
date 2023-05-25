@@ -5,6 +5,12 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_adrian</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/1b62fb81-48ce-49d1-9ed1-8a620116fb5c/resourceGroups/az-group-rg/providers/microsoft.insights/components/azure-app-adrian</ApplicationInsightsResourceId>
+    <UserSecretsId>1309b50d-3c94-4950-bb08-856fe9887726</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
+  </ItemGroup>
 
 </Project>
